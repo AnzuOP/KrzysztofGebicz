@@ -1,0 +1,49 @@
+- Projekt umożliwia zarządzanie turniejem e-sportowym w grze np. CS
+
+- Program umożliwia dodawanie drużyn i zawodników, tworzenie meczów oraz wprowadzanie ich wyników. System automatycznie ustala zwycięzców i przyznaje punkty drużynie
+
+- Umożliwia również wyświetlanie tabeli turniejowej, statystyk drużyn i klasyfikacji końcowej. Obsługa odbywa się z poziomu podstawowego menu, które pozwala wybrać dostępne funkcje
+
+- Projekt składa się z klas:
+	 • Uczestnik:
+		-Dane uczestnika,
+		-Zebrane punkty,
+		-Nick 
+	 • Gracz:
+		-Dane uczestnika,
+		-Zebrane punkty,
+		-Nick, 
+		-Rola w drużynie
+	 • Kapitan:
+		-Dane uczestnika,
+		-Zebrane punkty,
+		-Nick, 
+		-Rola w drużynie, 
+		-Zarządzanie drużyną (rotacja składu, rotacja ról itd.)
+	 • Drużyna: 
+		-Nazwa drużyny,
+		-Lista zawodników,
+		-Liczba zwycięstw i porażek (Bilans),
+		-Dodawanie zawodników 
+	• Mecz:
+		-Dwie drużyny,
+		-Wynik meczu,
+		-Ustalenie zwycięzcy,
+		-Przyznawanie punktów 
+ 	 • Turniej:
+		-Nazwa gry,
+		-Lista drużyn i meczów,
+		-Tabela turniejowa,
+		-Klasyfikacja końcowa 
+ 	 • Administrator:
+		-Dodawanie drużyn,
+		-Tworzenie meczów,
+		-Wprowadzanie wyników,
+		-Zarządzanie turniejem 
+	 • Main:
+		-Punkt startowy programu,
+		-Pozwala wybrać dostępne funkcje 
+
+- Gracz (klasa zawiera również role w drużynie np. IGL) dziedziczy po klasie Uczestnik, Kapitan (ma funkcje zarządzania drużyna) dziedziczy po klasie Gracz
+
+- Celem tego projektu jest stworzenie prostego w obsłudze systemu ułatwiającego organizacje turniejów
